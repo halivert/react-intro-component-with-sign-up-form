@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "https://halivert.dev/react-intro-component-with-sign-up-form/static/css/main.955d69be.chunk.css",
-    "main.js": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/main.4fd5bbb4.chunk.js",
-    "main.js.map": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/main.4fd5bbb4.chunk.js.map",
-    "runtime-main.js": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/runtime-main.78c232f7.js",
-    "runtime-main.js.map": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/runtime-main.78c232f7.js.map",
-    "static/js/2.7c5fab0e.chunk.js": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/2.7c5fab0e.chunk.js",
-    "static/js/2.7c5fab0e.chunk.js.map": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/2.7c5fab0e.chunk.js.map",
-    "static/js/3.481f2382.chunk.js": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/3.481f2382.chunk.js",
-    "static/js/3.481f2382.chunk.js.map": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/3.481f2382.chunk.js.map",
+    "main.js": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/main.979f4d60.chunk.js",
+    "main.js.map": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/main.979f4d60.chunk.js.map",
+    "runtime-main.js": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/runtime-main.f835fc15.js",
+    "runtime-main.js.map": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/runtime-main.f835fc15.js.map",
+    "static/js/2.79244b1a.chunk.js": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/2.79244b1a.chunk.js",
+    "static/js/2.79244b1a.chunk.js.map": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/2.79244b1a.chunk.js.map",
+    "static/js/3.c0502e0b.chunk.js": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/3.c0502e0b.chunk.js",
+    "static/js/3.c0502e0b.chunk.js.map": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/3.c0502e0b.chunk.js.map",
     "index.html": "https://halivert.dev/react-intro-component-with-sign-up-form/index.html",
     "static/css/main.955d69be.chunk.css.map": "https://halivert.dev/react-intro-component-with-sign-up-form/static/css/main.955d69be.chunk.css.map",
-    "static/js/2.7c5fab0e.chunk.js.LICENSE.txt": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/2.7c5fab0e.chunk.js.LICENSE.txt",
+    "static/js/2.79244b1a.chunk.js.LICENSE.txt": "https://halivert.dev/react-intro-component-with-sign-up-form/static/js/2.79244b1a.chunk.js.LICENSE.txt",
     "static/media/App.css": "https://halivert.dev/react-intro-component-with-sign-up-form/static/media/bg-intro-mobile.02ce3982.png",
     "static/media/Input.css": "https://halivert.dev/react-intro-component-with-sign-up-form/static/media/icon-error.b72f792e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.78c232f7.js",
-    "static/js/2.7c5fab0e.chunk.js",
+    "static/js/runtime-main.f835fc15.js",
+    "static/js/2.79244b1a.chunk.js",
     "static/css/main.955d69be.chunk.css",
-    "static/js/main.4fd5bbb4.chunk.js"
+    "static/js/main.979f4d60.chunk.js"
   ]
 }
