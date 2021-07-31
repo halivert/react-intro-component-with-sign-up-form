@@ -21,7 +21,6 @@ jobs:
           cache: "yarn"
 
       - name: Build JS files
-        env:
         run: |
           yarn
           yarn build
