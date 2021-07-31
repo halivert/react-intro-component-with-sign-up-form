@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: center;
 	margin-bottom: 1.75em;
+	width: 100%;
 }
 
 .notification__body {
@@ -12,4 +13,10 @@
 	padding: 1.5em 3em;
 	text-align: center;
 	box-shadow: 0 8px var(--dark-blue-shadow);
+}
+
+@media (min-width: 900px) {
+	.notification {
+		justify-content: flex-start;
+	}
 }

@@ -46,6 +46,7 @@ body {
 }
 
 .header {
+	grid-area: header;
 	color: white;
 	display: flex;
 	align-items: center;
@@ -69,7 +70,12 @@ body {
 	font-weight: 500;
 }
 
+.main {
+	grid-area: main;
+}
+
 .footer {
+	grid-area: footer;
 	display: flex;
 	color: white;
 	padding: 0.5em;
@@ -91,4 +97,49 @@ body {
 .footer__link:focus-visible {
 	outline: none;
 	text-decoration: underline;
+}
+
+@media (min-width: 900px) {
+	body {
+		background-image: url("assets/img/bg-intro-desktop.png");
+	}
+
+	.app {
+		grid-template:
+			"header main" 1fr
+			"footer footer" auto
+			/ 45% 55%;
+
+		gap: 3.5em;
+	}
+
+	.header {
+		justify-content: center;
+		--margin-items: 10rem;
+		--width-items: 80%;
+	}
+
+	.header__title {
+		text-align: left;
+		font-size: 3em;
+		margin-left: var(--margin-items);
+		width: var(--width-items);
+	}
+
+	.header__content {
+		margin-left: var(--margin-items);
+		width: var(--width-items);
+		text-align: left;
+		line-height: 1.7;
+		font-weight: 500;
+	}
+
+	.main {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: flex-start;
+		width: 80%;
+		margin-top: 7em;
+	}
 }
