@@ -8,6 +8,8 @@ on:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
+    env:
+      PUBLIC_URL: "https://halivert.dev/react-intro-component-with-sign-up-form/"
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -19,6 +21,7 @@ jobs:
           cache: "yarn"
 
       - name: Build JS files
+        env:
         run: |
           yarn
           yarn build
