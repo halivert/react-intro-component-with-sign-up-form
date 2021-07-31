@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Input from "./Input";
+import "./Form.css";
 
 export default function Form() {
 	const [firstName, setFirstName] = useState("");
@@ -48,56 +49,60 @@ export default function Form() {
 	};
 
 	return (
-		<form onSubmit={handleSubmit} noValidate>
-			<Input
-				name="first_name"
-				placeholder="First name"
-				value={firstName}
-				onChange={(evt) => {
-					setFirstName(evt.target.value);
-					setFirstNameErrors([]);
-				}}
-				errors={firstNameErrors}
-			/>
-			<Input
-				name="last_name"
-				placeholder="Last name"
-				value={lastName}
-				onChange={(evt) => {
-					setLastName(evt.target.value);
-					setLastNameErrors([]);
-				}}
-				errors={lastNameErrors}
-			/>
-			<Input
-				name="email_address"
-				placeholder="Email address"
-				type="email"
-				value={emailAddress}
-				onChange={(evt) => {
-					setEmailAddress(evt.target.value);
-					setEmailAddressErrors([]);
-				}}
-				errors={emailAddressErrors}
-			/>
-			<Input
-				name="password"
-				placeholder="Password"
-				type="password"
-				value={password}
-				onChange={(evt) => {
-					setPassword(evt.target.value);
-					setPasswordErrors([]);
-				}}
-				errors={passwordErrors}
-			/>
+		<form className="form" onSubmit={handleSubmit} noValidate>
+			<fieldset className="form__fieldset">
+				<Input
+					name="first_name"
+					placeholder="First name"
+					value={firstName}
+					onChange={(evt) => {
+						setFirstName(evt.target.value);
+						setFirstNameErrors([]);
+					}}
+					errors={firstNameErrors}
+				/>
+				<Input
+					name="last_name"
+					placeholder="Last name"
+					value={lastName}
+					onChange={(evt) => {
+						setLastName(evt.target.value);
+						setLastNameErrors([]);
+					}}
+					errors={lastNameErrors}
+				/>
+				<Input
+					name="email_address"
+					placeholder="Email address"
+					type="email"
+					value={emailAddress}
+					onChange={(evt) => {
+						setEmailAddress(evt.target.value);
+						setEmailAddressErrors([]);
+					}}
+					errors={emailAddressErrors}
+				/>
+				<Input
+					name="password"
+					placeholder="Password"
+					type="password"
+					value={password}
+					onChange={(evt) => {
+						setPassword(evt.target.value);
+						setPasswordErrors([]);
+					}}
+					errors={passwordErrors}
+				/>
 
-			<button>Claim your free trial</button>
+				<button className="form__button">Claim your free trial</button>
 
-			<small>
-				By clicking the button, you are agreeing to our{" "}
-				<a href="#terms">Terms and Services</a>
-			</small>
+				<small className="form__small">
+					By clicking the button, you are agreeing to our{" "}
+					<a className="form__link" href="#terms">
+						Terms and Services
+					</a>
+				</small>
+			</fieldset>
 		</form>
 	);
 }

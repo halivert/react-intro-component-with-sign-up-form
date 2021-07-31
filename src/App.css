@@ -16,9 +16,12 @@ html {
 	--grayish-blue: hsl(246, 25%, 77%);
 
 	--dark-blue-shadow: hsl(249, 10%, 26%, 0.3);
+	--green-shadow: hsl(154, 59%, 45%, 1);
 
 	--font-size: 16px;
 	--font-family: "Poppins"; /*(https://fonts.google.com/specimen/Poppins)*/
+
+	--element-width: 87%;
 }
 
 body {
@@ -43,7 +46,7 @@ body {
 }
 
 .header {
-	color: #fff;
+	color: white;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -68,7 +71,7 @@ body {
 
 .footer {
 	display: flex;
-	color: #fff;
+	color: white;
 	padding: 0.5em;
 	border-top: 1px solid hsl(0, 0%, 0%, 0.2);
 	justify-content: center;
