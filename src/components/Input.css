@@ -5,27 +5,43 @@
 }
 
 .input {
+	--input-height: 4.1em;
+	--input-padding: 1.25em;
+
 	font-family: var(--font-family);
-	padding: 1.25em;
+	padding: var(--input-padding);
 	font-weight: bold;
 	border-radius: 4px;
-	border: 2px solid var(--grayish-blue);
-	min-width: 0;
+	border: 1px solid var(--grayish-blue);
 	outline: none;
 	box-shadow: none;
-	margin-bottom: 0.5em;
+	height: var(--input-height);
+	width: 100%;
+}
+
+.input:focus,
+.input:focus-visible,
+.input__field--has-errors .input {
+	border-width: 2px;
+	width: calc(100% - 1px);
+	height: calc(var(--input-height) - 1px);
+	padding: calc(var(--input-padding) - 1px);
 }
 
 .input__control {
 	position: relative;
 }
 
+.input__control:not(:last-child) {
+	margin-bottom: 0.5em;
+}
+
 .input__field--has-errors .input__control::after {
-	content: url('../assets/img/icon-error.svg');
+	content: url("../assets/img/icon-error.svg");
 	position: absolute;
 	right: 1em;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-40%);
 }
 
 .input__field--has-errors .input {
