@@ -2,10 +2,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
+	width: 100%;
 }
 
 .input {
-	--input-height: 4.1em;
 	--input-padding: 1.25em;
 
 	font-family: var(--font-family);
@@ -15,7 +15,7 @@
 	border: 1px solid var(--grayish-blue);
 	outline: none;
 	box-shadow: none;
-	height: var(--input-height);
+	height: 100%;
 	width: 100%;
 }
 
@@ -23,13 +23,12 @@
 .input:focus-visible,
 .input__field--has-errors .input {
 	border-width: 2px;
-	width: calc(100% - 1px);
-	height: calc(var(--input-height) - 1px);
 	padding: calc(var(--input-padding) - 1px);
 }
 
 .input__control {
 	position: relative;
+	width: 100%;
 }
 
 .input__control:not(:last-child) {
