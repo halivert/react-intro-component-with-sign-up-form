@@ -1,0 +1,16 @@
+.notification {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1.75em;
+}
+
+.notification__body {
+	background-color: var(--blue);
+	color: #fff;
+	width: 90%;
+	border-radius: 8px;
+	padding: 1.5em 3em;
+	text-align: center;
+	line-height: 1.6;
+	box-shadow: 0 8px var(--dark-blue-shadow);
+}
