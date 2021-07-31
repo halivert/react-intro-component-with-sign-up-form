@@ -30,6 +30,13 @@
 	font-size: 0.95em;
 	letter-spacing: 1px;
 	cursor: pointer;
+	outline: none;
+}
+
+.form__button:hover,
+.form__button:focus,
+.form__button:focus-visible {
+	filter: brightness(120%);
 }
 
 .form__small {
