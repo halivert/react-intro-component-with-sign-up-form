@@ -53,7 +53,7 @@ export default function Form() {
 			<fieldset className="form__fieldset">
 				<Input
 					name="first_name"
-					placeholder="First name"
+					placeholder="First Name"
 					value={firstName}
 					onChange={(evt) => {
 						setFirstName(evt.target.value);
@@ -63,7 +63,7 @@ export default function Form() {
 				/>
 				<Input
 					name="last_name"
-					placeholder="Last name"
+					placeholder="Last Name"
 					value={lastName}
 					onChange={(evt) => {
 						setLastName(evt.target.value);
@@ -73,7 +73,7 @@ export default function Form() {
 				/>
 				<Input
 					name="email_address"
-					placeholder="Email address"
+					placeholder="Email Address"
 					type="email"
 					value={emailAddress}
 					onChange={(evt) => {

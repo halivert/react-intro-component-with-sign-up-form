@@ -17,6 +17,7 @@
 }
 
 .form__button {
+	font-family: var(--font-family);
 	color: white;
 	appearance: none;
 	background-color: var(--green);
@@ -24,15 +25,16 @@
 	border-radius: 4px;
 	text-transform: uppercase;
 	padding: 1.25em 0 1em 0;
-	font-weight: bold;
+	font-weight: 600;
 	box-shadow: 0 4px var(--green-shadow);
 	font-size: 0.95em;
 	letter-spacing: 1px;
+	cursor: pointer;
 }
 
 .form__small {
 	padding: 0 2em;
-	font-size: 0.7em;
+	font-size: 0.75em;
 	text-align: center;
 	color: var(--grayish-blue);
 	font-weight: 500;
