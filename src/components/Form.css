@@ -55,6 +55,7 @@
 	outline: none;
 }
 
+.form__link:hover,
 .form__link:focus,
 .form__link:focus-visible {
 	text-decoration: underline;

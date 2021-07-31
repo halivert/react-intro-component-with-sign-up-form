@@ -19,6 +19,7 @@
 	width: 100%;
 }
 
+.input:hover,
 .input:focus,
 .input:focus-visible,
 .input__field--has-errors .input {
